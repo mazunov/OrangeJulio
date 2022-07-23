@@ -15,6 +15,11 @@ import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.OutputType;
 
 public class Questions {
+	private WebDriver driver;
+	
+	public Questions(WebDdriver driver){
+		this.driver = driver;
+	}
 
 	@Step
 	public void tituloAssert(WebDriver driver) {

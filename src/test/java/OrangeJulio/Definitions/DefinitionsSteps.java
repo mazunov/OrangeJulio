@@ -16,6 +16,7 @@ public class DefinitionsSteps {
 	private Conexion conexion = new Conexion();
 	private LoginPage loginPage = new LoginPage(driver);
 	private PimPage pimPage = new PimPage(driver); 
+	private LeavePage leavePage = new LeavePage(driver);
 	
 
 	@Given("^abrir el navegador$")
